@@ -1,0 +1,23 @@
+l=[]
+
+n=int(input("Enter the size:"))
+
+for i in range(n):
+
+    x=int(input())
+
+    l.append(x)
+
+new=[]
+
+c=0
+
+for i in l:
+
+    if i!=0:
+
+       new.append(x)
+
+       c+=1
+
+print(" The  non-zero elements are:",num,"/n","The number of non-zero elements are:","count:",c,"or","len(num):",len(num))
